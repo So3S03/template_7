@@ -1,0 +1,471 @@
+/* Large desktop */
+@media (max-width: 1200px) {
+    header .container {
+        width: 93%;
+    }
+
+    header .container nav ul {
+        display: none;
+    }
+
+    header .container .shape {
+        display: block;
+        color: #000;
+        width: fit-content;
+        padding-top: 35px;
+        margin-left: 20px;
+    }
+
+    main .contain article .content h2 {
+        margin-top: -100px;
+    }
+
+    main .contain article .btns button {
+        margin-right: 31px;
+    }
+
+    .chefs .contact .contact-card .cards h3,
+    .chefs .contact .contact-card .cards p {
+        width: 78%;
+    }
+
+    .chefs .contact .contact-card .cards div {
+        width: 15%;
+        height: 90%;
+    }
+
+    .chefs .contact .contact-form form input:first-child,
+    .chefs .contact .contact-form form input:nth-child(2) {
+        width: 47%;
+    }
+
+    footer .foot {
+        position: relative;
+    }
+
+    footer .foot .foot-content {
+        width: 48%;
+    }
+
+    footer .foot .foot-content:nth-child(2) {
+        width: 100%;
+    }
+
+    .foot-content form input {
+        width: 79%;
+        margin-bottom: 10px;
+    }
+
+    .foot-content form button {
+        width: 20%;
+    }
+
+    footer .foot .foot-content:last-child {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 25px;
+    }
+
+    body:has(#dark:checked) .shape {
+        color: #fff;
+    }
+}
+
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    header .container {
+        width: 85%;
+    }
+
+    header .container nav ul {
+        display: none;
+    }
+
+    header .container .shape {
+        display: block;
+        color: #000;
+        width: fit-content;
+        padding-top: 35px;
+        margin-left: 20px;
+    }
+
+    main .contain {
+        width: 90%;
+    }
+
+    main .contain article {
+        width: 100%;
+    }
+
+    main .contain article .content {
+        text-align: center;
+    }
+
+    main .contain article .content h2 {
+        width: 50%;
+        margin: auto;
+        margin-top: -100px;
+    }
+
+    main .contain article .content .btns button {
+        border-top-left-radius: 40px;
+    }
+
+    .chefs-cards .box {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+
+    /* .box2 {
+        width: 49%;
+    }
+    .box2:last-child {
+        margin-top: -200px;
+    } */
+    .chefs .contact .contact-card .cards h3,
+    .chefs .contact .contact-card .cards p {
+        width: 70%;
+    }
+
+    .chefs .contact .contact-card .cards div {
+        width: 20%;
+        height: 90%;
+    }
+
+    .chefs .contact .contact-form form input:first-child,
+    .chefs .contact .contact-form form input:nth-child(2) {
+        width: 100%;
+    }
+
+    footer .foot {
+        position: relative;
+    }
+
+    footer .foot .foot-content {
+        width: 48%;
+    }
+
+    footer .foot .foot-content:nth-child(2) {
+        width: 100%;
+    }
+
+    .foot-content form input {
+        width: 79%;
+        margin-bottom: 10px;
+    }
+
+    .foot-content form button {
+        width: 20%;
+    }
+
+    footer .foot .foot-content:last-child {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 25px;
+    }
+
+    main .contain article .content .btns a .shape_2 {
+        padding-left: 3px;
+    }
+
+    body:has(#dark:checked) .shape {
+        color: #fff;
+    }
+
+    .masonry {
+        columns: 2;
+    }
+}
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    header .container {
+        width: 95%;
+    }
+
+    header .container nav ul {
+        display: none;
+    }
+
+    header .container .shape {
+        display: block;
+        color: #000;
+        width: fit-content;
+        padding-top: 35px;
+        margin-left: 20px;
+    }
+
+    main .contain {
+        width: 90%;
+    }
+
+    main .contain article {
+        width: 100%;
+    }
+
+    main .contain article .content {
+        text-align: center;
+    }
+
+    main .contain article .content h2 {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .chefs-cards .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* .box2 {
+        width: 100%;
+    } */
+    .chefs .contact .contact-card .cards {
+        width: 100%;
+    }
+
+    .chefs .contact .contact-card .cards h3,
+    .chefs .contact .contact-card .cards p {
+        width: 80%;
+    }
+
+    .chefs .contact .contact-card .cards div {
+        width: 15%;
+        height: 90%;
+    }
+
+    .chefs .contact .contact-form form input:first-child,
+    .chefs .contact .contact-form form input:nth-child(2) {
+        width: 100%;
+    }
+
+    footer .foot .foot-content {
+        width: 100%;
+    }
+
+    footer .foot .foot-content:nth-child(2) {
+        width: 100%;
+    }
+
+    .foot-content form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .foot-content form button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    main .contain article .content .btns a .shape_2 {
+        padding-left: 5px;
+        padding-top: 7px;
+    }
+
+    footer .foot .foot-content:last-child {
+        position: static;
+    }
+
+    body:has(#dark:checked) .shape {
+        color: #fff;
+    }
+
+    .masonry {
+        columns: 1;
+    }
+}
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    header .container nav ul {
+        display: none;
+    }
+
+    header .container .shape {
+        display: block;
+        color: #000;
+        width: fit-content;
+        padding-top: 35px;
+        margin-left: 20px;
+    }
+
+    main .contain {
+        width: 90%;
+    }
+
+    main .contain article {
+        width: 100%;
+    }
+
+    main .contain article .content {
+        text-align: center;
+    }
+
+    main .contain article .content h2 {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    main .contain article .content .btns {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .contain article .content .btns button {
+        margin: 0 0 20px 30%;
+        border-top-left-radius: 40px;
+    }
+
+    main .contain article .content .btns a {
+        margin-left: 25%;
+    }
+
+    main .contain article .content .btns a .shape_2 {
+        padding-left: 4px;
+        padding-top: 8px;
+    }
+
+    .chefs-cards .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* .box2 {
+        width: 100%;
+    } */
+    .chefs .contact .contact-card .cards {
+        width: 100%;
+    }
+
+    .chefs .contact .contact-card .cards h3,
+    .chefs .contact .contact-card .cards p {
+        width: 75%;
+    }
+
+    .chefs .contact .contact-card .cards div {
+        width: 20%;
+        height: 80%;
+    }
+
+    footer .foot .foot-content {
+        width: 100%;
+    }
+
+    footer .foot .foot-content:nth-child(2) {
+        width: 100%;
+    }
+
+    .foot-content form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .foot-content form button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    body:has(#dark:checked) .shape {
+        color: #fff;
+    }
+
+    footer .foot .foot-content:last-child {
+        position: static;
+    }
+}
+
+@media (max-width: 280px) {
+    header .container nav ul {
+        display: none;
+    }
+
+    header .container .shape {
+        display: block;
+        color: #000;
+        width: fit-content;
+        padding-top: 35px;
+        margin-left: 20px;
+    }
+
+    main .contain {
+        width: 90%;
+    }
+
+    main .contain article {
+        width: 100%;
+    }
+
+    main .contain article .content {
+        text-align: center;
+    }
+
+    main .contain article .content h2 {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    main .contain article .content .btns {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .contain article .content .btns button {
+        margin: 0 0 20px 20%;
+        border-top-left-radius: 40px;
+    }
+
+    main .contain article .content .btns a {
+        margin-left: 12%;
+    }
+
+    main .contain article .content .btns a .shape_2 {
+        padding-left: 4px;
+        padding-top: 8px;
+    }
+
+    .chefs-cards .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* .box2 {
+        margin-bottom: 10px;
+    } */
+    .chefs .contact .contact-card .cards h3,
+    .chefs .contact .contact-card .cards p {
+        width: 68%;
+    }
+
+    .chefs .contact .contact-card .cards div {
+        width: 25%;
+        height: 70%;
+    }
+
+    footer .foot .foot-content {
+        width: 100%;
+    }
+
+    .foot-content form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .foot-content form button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    body:has(#dark:checked) .shape {
+        color: #fff;
+    }
+}
